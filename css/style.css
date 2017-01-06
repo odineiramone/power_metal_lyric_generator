@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Amarante|Open+Sans';
+
+html, body
+{
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 100%;
+  text-align: center;
+}
+
+.main_div
+{
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.lyric_div {
+  padding-top: 20%;
+  font-size: 3.5em;
+  font-family: 'Amarante', cursive;
+  color: #fff;
+  text-shadow: 4px 4px #222;
+}
+
+.button_div {
+  margin-top: 20px;
+  font-size: large;
+  font-style: oblique;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-shadow: 1px 1px #444;
+}
+
+.github_div, a {
+  margin-top: 10px;
+  font-size: medium;
+  font-style: oblique;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-shadow: 1px 1px #444;
+  text-decoration: none;
+}
+
+.span_button {
+  cursor: pointer;
+  font-style: italic;
+}
+
+.span_button:hover {
+  text-decoration: underline;
+}
