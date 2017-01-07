@@ -71,3 +71,5 @@ function random_background() {
 function changeText(elem) {
   elem.innerHTML = generate_phrase();
 }
+
+// This is just to complete my 666 contribution on last year on github
